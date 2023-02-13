@@ -1,8 +1,15 @@
-# US_Flights_ETL
-Full ETL process for US Flights data using Jupyter notebook into AWS
+# US_Flights_ETL - Data Engineering Test
+Full ETL process for US Flights data using Jupyter notebook into AWS 
 
+Data Flow:
 - Created the connection to AWS.
 - Created Staging
 - Extract ther data from csv file.
-- Cleaned the data for anomoloies, transformed it, parsed it, generated it and populated it (from other fields).
-- Created dimensions and Fact table in AWS
+- Transformed the data (intuitively and as per requirements)
+	- Cleaned the data for anomoloies
+	- parsed 
+	- generated ipopulated it (from other fields).
+- Created and saved the dimensions tables and Fact table in AWS
+- Altered the data type and constraint keys for the tables
+
+Note: couldn't upload the data csv file to Github, due to size.
